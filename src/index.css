@@ -10,22 +10,23 @@
   line-height: normal;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   gap: 2rem;
-  padding-bottom: 2.4rem;
   border-bottom: 0.1875rem solid #FFF;
-  text-align: center;
+  /* margin: 0; */
 }
 
 html {
   margin: 0px;
   height: 100%;
   width: 100%;
+  background-color: black;
 }
 
 body {
-  margin: 0px;
+  margin: 0 auto;
   min-height: 100%;
-  width: 100%;
   background: #160303;
 }
 
