@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Ubuntu+Mono&display=swap');
 
 .navbar--option--list{
   list-style-type: none;
   color: #FFF;
-  font-family: Source Code Pro;
+  font-family: 'Source Code Pro', monospace;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
@@ -14,7 +14,11 @@
   justify-content: center;
   gap: 2rem;
   border-bottom: 0.1875rem solid #FFF;
-  /* margin: 0; */
+  padding: 2.4rem 0;
+}
+
+.navbar--option--list > p {
+  margin: 0;
 }
 
 html {
@@ -29,3 +33,46 @@ body {
   background: #171010;
 }
 
+.hero--containter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+.hero--element1 {
+  color: #FFF;
+  font-family: Source Code Pro;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  margin-top: 2.4rem;
+}
+
+.hero--element2 {
+  width: 18.75rem;
+  height: 18.75rem;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.hero--element3 {
+  color: #F9F9F9;
+  font-family: Source Code Pro;
+  font-size: 5.3125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.hero--element4{
+  color: #818181;
+  font-family: Ubuntu Mono;
+  font-size: 3.375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
