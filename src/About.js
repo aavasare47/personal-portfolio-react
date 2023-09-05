@@ -3,8 +3,15 @@ import React from "react";
 export default function About () {
     return(
     <div className="about--container">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-        <p>hello</p>
+        <div className="about--component0">
+        <p>Links:</p>
+        </div>
+        <div className="about--component1">
+        <p className="about--element0">Hey there! Here is a little about yours truly,</p>
+        <p className="about--element1">I am a Computer Science Student, studying at Texas Tech University. My areas of interest are Web3, Artificial Intelligence and Machine Learning, and UI/UX Design. Over the years, I've developed a knack for designing and implementing websites and ML models that are wacky  and provide an adventerous user experience. 
+        </p>
+        </div>
+        
     </div>
     )
 }
